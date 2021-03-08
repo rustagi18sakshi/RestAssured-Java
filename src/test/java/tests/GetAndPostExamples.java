@@ -19,7 +19,7 @@ public class GetAndPostExamples {
 	{
 		baseURI = "https://reqres.in/api";
 		
-		given().
+		when().
 			get("users?page=2").
 		then().
 			statusCode(200).
