@@ -10,7 +10,7 @@ import io.restassured.response.Response;
 /*
  Website for fake data: https://reqres.in/ 
 */
-public class TestsExamples {
+public class BasicExample {
 
 	//GET example
 	@Test

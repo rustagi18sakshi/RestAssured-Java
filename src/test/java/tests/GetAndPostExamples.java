@@ -20,7 +20,7 @@ public class GetAndPostExamples {
 		baseURI = "https://reqres.in/api";
 		
 		when().
-			get("users?page=2").
+			get("/users?page=2").
 		then().
 			statusCode(200).
 			body("data[4].first_name", equalTo("George")).  //JSON path to be found through JSON Path Finder
